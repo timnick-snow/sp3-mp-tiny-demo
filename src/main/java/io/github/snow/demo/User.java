@@ -17,6 +17,6 @@ public class User {
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
     private String username;
-    private int age;
+    private Long age;
     private LocalDateTime createTime;
 }
