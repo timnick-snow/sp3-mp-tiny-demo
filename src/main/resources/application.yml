@@ -1,0 +1,9 @@
+server:
+  port: 8099
+spring:
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
